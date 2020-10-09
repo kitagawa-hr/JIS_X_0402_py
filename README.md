@@ -4,6 +4,12 @@
 
 参照しているデータは[総務省のホームページ](https://www.soumu.go.jp/denshijiti/code.html)からダウンロードしたものです。
 
+## Installation
+
+```sh
+pip install jisx0402
+```
+
 ## Usage
 
 ### Recordクラス
