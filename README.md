@@ -1,5 +1,7 @@
 # JIS X 0402
 
+![status](https://github.com/kitagawa-hr/JIS_X_0402_py/workflows/Python%20package/badge.svg)
+
 このライブラリはJIS X 0402で規定されている全国地方公共団体コードを扱うライブラリです。
 
 参照しているデータは[総務省のホームページ](https://www.soumu.go.jp/denshijiti/code.html)からダウンロードしたものです。

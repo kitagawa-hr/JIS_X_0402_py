@@ -42,7 +42,7 @@ class Record(BaseModel):
 CODES = []
 RECORDS = []
 
-with open("/Users/kitagawaharuki/playground/jisx0402/data.csv") as f:
+with open("data.csv") as f:
     reader = csv.DictReader(f)
     for row in reader:
         CODES.append(row["code"])
