@@ -1,6 +1,7 @@
 import csv
 from typing import List
 import re
+from pathlib import Path
 
 from pydantic import BaseModel
 
@@ -41,8 +42,7 @@ class Record(BaseModel):
 
 CODES = []
 RECORDS = []
-
-with open("data.csv") as f:
+with Path(__file__).parent.absolute().joinpath("data.csv").open("r") as f:
     reader = csv.DictReader(f)
     for row in reader:
         CODES.append(row["code"])
