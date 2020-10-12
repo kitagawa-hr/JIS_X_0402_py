@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "jisx0402"
-version = "0.1.2"
+version = "0.1.3"
 description = "全国地方公共団体コードを扱うライブラリ."
 readme = "README.md"
 homepage = "https://github.com/kitagawa-hr/JIS_X_0402_py"
