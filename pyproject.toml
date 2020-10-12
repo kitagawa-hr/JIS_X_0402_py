@@ -6,7 +6,10 @@ readme = "README.md"
 homepage = "https://github.com/kitagawa-hr/JIS_X_0402_py"
 repository = "https://github.com/kitagawa-hr/JIS_X_0402_py"
 authors = ["kitagawa-hr <kitagawa@cancerscan.jp>"]
-
+packages = [
+    { include = "data.csv" },
+    { include = "jisx0402.py" },
+]
 [tool.poetry.dependencies]
 python = "^3.6"
 pydantic = "^1.6.1"
