@@ -34,14 +34,14 @@ Record(code="011002", prefecture="北海道", prefecture_kana="ﾎｯｶｲﾄ�
 
 ```
 
-### code2name
+### code2record
 
 全国地方公共団体コード -> Recordの変換を行います。
 
 #### 例
 
 ```py
->>> code2name("010006")
+>>> code2record("010006")
 Record(code="010006", prefecture="北海道", prefecture_kana="ﾎｯｶｲﾄﾞｳ", city="", city_kana="")
 ```
 
